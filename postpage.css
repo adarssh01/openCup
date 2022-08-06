@@ -1,0 +1,71 @@
+
+
+.blog-post-content{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 10%;
+    margin: 1.5rem 0;
+}
+.blog-post-content h1{
+    text-align: center;
+}
+
+.extlink {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5%;
+    flex-wrap: nowrap;
+    line-height: 150%;
+    margin: 0 20%;
+    padding: 5% 15%;
+}
+
+.font2 {
+    list-style:disc;
+    color: black;
+    
+}
+.font2:hover {
+    font-weight: 600;
+}
+li::marker {
+    
+    content: '🔹';
+}
+
+@media (max-width: 912px) {
+    .logo {
+        cursor: pointer;
+        height: 100px;
+        width: auto;
+        margin: 0 -8px;
+    }
+
+    header {
+        height: 65px;
+        width: 100%;
+        
+        
+       
+        padding: 1rem 10px;
+        
+    }
+    .extlink {
+       
+        margin: 0 10%;
+        padding: 5% 1%;
+    }
+    .cta > button {
+       
+        background-color: grey;
+        border-radius: 40px;
+        cursor: pointer;
+        padding: 0px;
+        height: 38px;
+        width: 104px;
+    }
+    .font1 {
+        font-size: 4vh;
+    }
+
+}
