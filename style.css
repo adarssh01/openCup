@@ -8,6 +8,9 @@
 
   font-family: "Open Sans", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 li,
 a,
@@ -127,7 +130,7 @@ header {
   font-size: 20px;
   font-family: Source Sans Pro, sans-serif;
 }
-.home-container {
+#home-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(330px, auto));
   justify-content: center;
@@ -288,7 +291,7 @@ strong {
   .items-container {
     margin: 12px 1.5rem 2.5rem;
   }
-  .home-container {
+  #home-container {
     margin: 12px 1.5rem 2.5rem;
   }
 }
