@@ -41,7 +41,7 @@ form .txt-field {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-input[type="submit"] {
+  button[type="submit"] {
   width: 45%;
   height: 40px;
   border: 1px solid black;
