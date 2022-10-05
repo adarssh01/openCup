@@ -229,7 +229,7 @@ footer {
 }
 
 .footer-col h4 {
-  font-size: 12px;
+  font-size: 14px;
   color: #e1e1e1;
   text-transform: capitalize;
   margin-bottom: 35px;
@@ -265,7 +265,10 @@ strong {
     height: 76px;
     padding: 1rem 2%;
   }
-  header ul {
+  #navl1 {
+    display: none;
+  }
+  #navl2 {
     display: none;
   }
   .box1 {
